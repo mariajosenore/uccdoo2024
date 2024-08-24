@@ -1,0 +1,7 @@
+total 64
+drwxrwxrwx 1 majo majo  4096 Aug 23 19:58 ./
+drwxrwxrwx 1 majo majo  4096 Aug 23 19:27 ../
+-rwxrwxrwx 1 majo majo 62337 Aug 23 19:50 archivo-01-huellas.txt*
+-rwxrwxrwx 1 majo majo   135 Aug 23 19:55 archivo-02-huellas.txt*
+-rwxrwxrwx 1 majo majo     0 Aug 23 19:58 archivo-03-huellas.txt*
+drwxrwxrwx 1 majo majo  4096 Aug 23 19:33 uccdoo2024/
