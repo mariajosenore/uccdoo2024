@@ -1,0 +1,37 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 18:45 ?        00:01:00 /sbin/init
+root           2       1  0 18:45 ?        00:00:00 /init
+root           8       2  0 18:45 ?        00:00:00 plan9 --control-socket 6 --log-level 4 --server-fd 7 --pipe-fd 9 --log-truncate
+root          46       1  0 18:45 ?        00:00:00 /lib/systemd/systemd-journald
+root          66       1  0 18:45 ?        00:00:00 /lib/systemd/systemd-udevd
+root          75       1  0 18:45 ?        00:00:00 snapfuse /var/lib/snapd/snaps/core22_1439.snap /snap/core22/1439 -o ro,nodev,allow_other,suid
+root          76       1  0 18:45 ?        00:00:00 snapfuse /var/lib/snapd/snaps/bare_5.snap /snap/bare/5 -o ro,nodev,allow_other,suid
+root          83       1  0 18:45 ?        00:00:01 snapfuse /var/lib/snapd/snaps/core22_1564.snap /snap/core22/1564 -o ro,nodev,allow_other,suid
+root          90       1  0 18:45 ?        00:00:00 snapfuse /var/lib/snapd/snaps/gtk-common-themes_1535.snap /snap/gtk-common-themes/1535 -o ro,nodev,allow_other,suid
+root          98       1  0 18:45 ?        00:00:00 snapfuse /var/lib/snapd/snaps/snapd_20290.snap /snap/snapd/20290 -o ro,nodev,allow_other,suid
+root         103       1  0 18:45 ?        00:00:00 snapfuse /var/lib/snapd/snaps/snapd_21759.snap /snap/snapd/21759 -o ro,nodev,allow_other,suid
+root         109       1  0 18:45 ?        00:00:00 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_1276.snap /snap/ubuntu-desktop-installer/1276 -o ro,nodev,allow_other,suid
+root         113       1  0 18:45 ?        00:00:01 snapfuse /var/lib/snapd/snaps/ubuntu-desktop-installer_1286.snap /snap/ubuntu-desktop-installer/1286 -o ro,nodev,allow_other,suid
+systemd+     125       1  0 18:45 ?        00:00:00 /lib/systemd/systemd-resolved
+root         140       1  0 18:45 ?        00:00:00 /usr/sbin/cron -f -P
+message+     148       1  0 18:45 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         157       1  0 18:45 ?        00:00:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       159       1  0 18:45 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         162       1  0 18:45 ?        00:00:01 /usr/lib/snapd/snapd
+root         163       1  0 18:45 ?        00:00:00 /lib/systemd/systemd-logind
+root         242       1  0 18:45 ?        00:00:00 /bin/bash /snap/ubuntu-desktop-installer/1286/bin/subiquity-server
+root         254       1  0 18:45 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         259       1  0 18:45 hvc0     00:00:00 /sbin/agetty -o -p -- \u --noclear --keep-baud console 115200,38400,9600 vt220
+root         265       1  0 18:45 tty1     00:00:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         291     242  0 18:45 ?        00:00:10 /snap/ubuntu-desktop-installer/1286/usr/bin/python3.10 -m subiquity.cmd.server --use-os-prober --storage-version=2 --postinst-hooks-dir=/snap/ubuntu-desktop-installer/1286/etc/subiquity/postinst.d
+root         323       2  0 18:45 ?        00:00:00 /init
+root         324     323  0 18:45 ?        00:00:00 /init
+majo         325     324  0 18:45 pts/0    00:00:00 -bash
+root         326       2  0 18:45 pts/1    00:00:00 /bin/login -f
+majo         370       1  0 18:45 ?        00:00:00 /lib/systemd/systemd --user
+majo         378     370  0 18:45 ?        00:00:00 (sd-pam)
+majo         390     326  0 18:45 pts/1    00:00:00 -bash
+root         419     291  0 18:45 ?        00:00:35 python3 /snap/ubuntu-desktop-installer/1286/usr/bin/cloud-init status --wait
+root       11738       1  0 19:32 ?        00:00:00 /usr/libexec/packagekitd
+root       11743       1  0 19:32 ?        00:00:00 /usr/libexec/polkitd --no-debug
+majo       27302     325  0 20:37 pts/0    00:00:00 ps -fea
